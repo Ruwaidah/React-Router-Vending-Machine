@@ -1,0 +1,45 @@
+.Chips {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.Chips .chips-card {
+  position: absolute;
+  background-color: rgba(0, 0, 0,0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 340px;
+  min-height: 200px;
+  top: 40%;
+  left: 40%;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.Chips .chips-card p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
+
+.Chips .chips-card button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.Chips .chips-card .eat-btn {
+  background-color: red;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.Chips .chips-card .goback-btn {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
